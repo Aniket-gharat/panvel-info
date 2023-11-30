@@ -115,6 +115,10 @@ font-family: Arial, Helvetica, sans-serif;
     background: #77b300;
     border:1px solid #77b300;
 }
+.shoppingPl{
+    font-size: 35px;
+    font-weight: 500;
+}
 
 @media(max-width: 995px) and (min-width: 770px){
     #panvelName h1{
@@ -184,7 +188,7 @@ body {
 .quote{
     text-align: justify; 
     margin-left: 0px;;
-    font-size: 24px;
+    font-size: 23px;
 }
 .darkmode{
                 margin-top: 16px;
@@ -277,7 +281,7 @@ font-family:'Times New Roman', Times, serif;
 .forminput{
 height: 25px;
 margin-left: 10px;
-width: 100%;
+width: 125%;
 }
 #submitBtn{
     font-size: 18px; 
@@ -286,5 +290,8 @@ width: 100%;
     background: #77b300;
     border:1px solid #77b300;
 }
-
+.shoppingPl{
+    font-size: 20px;
+    font-weight: 600;
+}
 }
