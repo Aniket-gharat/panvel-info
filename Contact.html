@@ -11,6 +11,7 @@
 	<script type="text/javascript" src="bootstrap.js"></script>	
 	<link rel="stylesheet" type="text/css" href="Master.css">
 	<script type="text/javascript" src="Contact.js"></script>
+	<link rel="stylesheet"  href="style.css">
 
 	<style type="text/css">
 		label{
@@ -29,39 +30,17 @@
 	<header>
 		<div class="container">
 			<div class="row" >
-				<div class="col-3 col-sm-3 col-md-4 col-lg-4 col-xl-4">
-				  <img src="logo/logomain.png" class="img-fluid mx-auto" height="70" width="170">
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-4 " id="logo1">
+					<img src="logo/logomain.png" class="img-fluid mx-auto" height="70" width="170">
 				</div>
-		
-			
-				<div class="col-6 col-sm-6 col-md-7 col-lg-6 col-xl-6">
-					<h1 style="font-size: 60px;  margin-top:6%;" >I ❤ PANVEL</h1>
+
+				
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 " id="panvelName">
+					<h1  >I ❤ PANVEL</h1>
 				  </div >
 				  
-				<div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2"> <style>
-				  body {
-					background-color: white;
-					color: black;
-				
-				  }
-				  
-				  .dark-mode {
-					background-color: black;
-					color: white;
-				  }
-				  .darkmode{
-					margin-top: 40px;
-					text-align: center;
-					font-size: medium;
-					font-family: 'Times New Roman', Times, serif;
-					border-radius: 15%;
-					box-shadow: 2px 3px;
-				  
-		
-				  }
-		
-				  </style>
-				  </head>
+				<div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 " > 
+					</head>
 				  <body>
 				  
 				  
@@ -101,34 +80,34 @@
 			<div class="contact" style="border:3px solid  #77b300; border-radius: 20px;">
 				<div class="row">
 					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-						<h3 style="text-align: center; padding-top: 15px; ">How can We improve our site? Your suggestions are helpful for us <br>Please Fill out the below details.</h3><br>
+						<h3 class="formpara">How can We improve our site? Your suggestions are helpful for us <br>Please Fill out the below details.</h3><br>
 					</div><br><br>
 
 					<div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto">
 						<form class="form-inline"  name="form1" class="frm_message" method="post" autocomplete="off" onsubmit="return Reg()" style="padding-bottom: 20px;">
 							<div class="form-group">
-						      	<label for="Fname">First Name: &nbsp;&nbsp;</label>
-						      	<input type="text" class="form-control" id="Fname" placeholder="Enter First Name" name="Fname" required=""><span id="Fnamemsg"></span>
+						      	<label for="Fname" class="formEntity">First Name: &nbsp;&nbsp;</label><div class="forminput">
+						      	<input type="text" class="form-control" id="Fname" placeholder="Enter First Name" name="Fname" required=""><span id="Fnamemsg"></span></div>
 						    </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 						    <div class="form-group">
-						      	<label for="Lname">Last Name: &nbsp;&nbsp;</label>
-						      	<input type="text" class="form-control" id="Lname" placeholder="Enter Last Name" name="Lname" required=""><span id="Lnamemsg" required=""></span>
+						      	<label for="Lname" class="formEntity">Last Name: &nbsp;&nbsp;</label><div class="forminput">
+						      	<input type="text" class="form-control" id="Lname" placeholder="Enter Last Name" name="Lname" required=""><span id="Lnamemsg" required=""></span></div>
 						    </div><br><br><br>
 
 						    <div class="form-group">
-						     	<label for="Cnumber">Contact No: &nbsp;</label>
-						      	<input type="number" class="form-control" id="Cnumber" placeholder="Enter Contact No" name="Cnumber" required=""> <span id="mobilemsg"></span>
+						     	<label for="Cnumber" class="formEntity">Contact No: &nbsp;</label><div class="forminput">
+						      	<input type="number" class="form-control" id="Cnumber" placeholder="Enter Contact No" name="Cnumber" required=""> <span id="mobilemsg"></span></div>
 						    </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 						    <div class="form-group">
-						      	<label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-						      	<input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required=""> <span id="emailmsg"></span>
+						      	<label for="email" class="formEntity">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><div class="forminput">
+						      	<input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required=""> <span id="emailmsg"></span></div>
 						    </div><br><br><br>
 
 						    <div class="form-group">
-						      	<label for="age">Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-						      	<input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" required=""> <span id="agemsg"></span>
+						      	<label for="age" class="formEntity">Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><div class="forminput">
+						      	<input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" required=""> <span id="agemsg"></span></div>
 						    </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 					
@@ -149,7 +128,7 @@
 								<br>
 				
 
-						    <input style="font-size: 18px; width: 120px; margin-left: 200px; background: #77b300; border:1px solid #77b300;"  type="submit" name="" value="SUBMIT" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
+						    <input   id="submitBtn" type="submit" name="" value="SUBMIT" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
 						    <input style="font-size: 18px; width: 120px;" type="Reset" name="" value="RESET" class="btn btn-danger">
 						</form>
 					</div>

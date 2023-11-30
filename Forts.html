@@ -11,6 +11,9 @@
   <script type="text/javascript" src="popper.js"></script>
   <script type="text/javascript" src="bootstrap.js"></script>
   <link rel="stylesheet" type="text/css" href="Master.css" />
+  <link rel="stylesheet"  href="style.css">
+
+  
 
   <script>
     $(document).ready(function () {
@@ -19,68 +22,25 @@
   </script>
 
   <style type="text/css">
-    #plan:hover {
-      text-decoration: underline;
-      color: #ff471a;
-    }
-
-    #zoom:hover {
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
-
-    }
-
-    .karnala {
-      height: 330px;
-      width: 100%;
-
-    }
-
-    .leftkarnala {
-      margin-right: 10px;
-      float: left;
-
-    }
+   
   </style>
 </head>
 
 <body>
   <header>
     <div class="container">
-      <div class="row">
-        <div class="col-3 col-sm-3 col-md-4 col-lg-4 col-xl-4">
-          <img src="logo/logomain.png" class="img-fluid mx-auto" height="70" width="170">
-        </div>
+      <div class="row" >
+				<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-4 " id="logo1">
+					<img src="logo/logomain.png" class="img-fluid mx-auto" height="70" width="170">
+				</div>
 
-        <div class="col-6 col-sm-6 col-md-7 col-lg-6 col-xl-6">
-          <h1 style="font-size: 60px;  margin-top:6%;" >I ❤ PANVEL</h1>
-        </div >
-
-        <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
-          <style>
-            body {
-              background-color: white;
-              color: black;
-
-            }
-
-            .dark-mode {
-              background-color: black;
-              color: white;
-            }
-
-            .darkmode {
-              margin-top: 40px;
-              text-align: center;
-              font-size: medium;
-              font-family: 'Times New Roman', Times, serif;
-              border-radius: 15%;
-              box-shadow: 2px 3px;
-
-
-            }
-          </style>
-          </head>
+				
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 " id="panvelName">
+					<h1  >I ❤ PANVEL</h1>
+				  </div >
+				  
+				<div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2 " > 
+					</head>
 
           <body>
 
@@ -139,13 +99,12 @@
         <div class="row">
 
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h2 style="text-align:center; font-weight:10px;  "> ~~🙏 🚩 आधी नमन नमन शिवरायाला 🚩
-              🙏~~</h2>
+            <h2 class="marathi"> 🙏 🚩 आधी नमन नमन शिवरायाला 🚩🙏</h2>
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <video controls="" autoplay class="img-thumbnail img-fluid mx-auto d-block"
+            <video controls="" muted class="img-thumbnail img-fluid mx-auto d-block"
               style="height:500px ; width:400px">
-              <source src="videos/shivaji maharaj.mp4">
+              <source src="videos/shivaji maharaj.mp4" >
 
             </video>
 
@@ -153,14 +112,7 @@
             <br />
           </div>
 
-
-
-
-
-
-
-
-          <h2>1. Karnala fort</h2>
+          <h2 class="Fnames">1. Karnala fort</h2>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <a
               href="https://www.google.com/maps/place/Karnala+Fort/@18.8877177,73.1130531,16z/data=!4m10!1m2!2m1!1skarnala+fort+location!3m6!1s0x3be7e733981f0b13:0x5eef0ae4a25d028d!8m2!3d18.8817727!4d73.1186864!15sChVrYXJuYWxhIGZvcnQgbG9jYXRpb25aDiIMa2FybmFsYSBmb3J0kgEIZm9ydHJlc3PgAQA!16s%2Fm%2F05h2bkt?entry=ttu">
@@ -204,12 +156,12 @@
               Bird Sanctuary. And thus, Karanla offers a great environment and
               atmosphere that is not only refreshing and soothing, but also
               filed with breathtaking view and wonderful trekking
-              experience.<br /><br />
+              experience.<br />
             </p>
 
             <div class="karnala ">
               <div class="leftkarnala">
-                <img src="imgs/KarnalaFort-2ndimg.jpeg " class="img-thumbnail img-fluid mx-auto d-block">
+                <img src="imgs/KarnalaFort-2ndimg.jpeg " id="karnalla" class="img-thumbnail img-fluid mx-auto d-block" >
               </div>
 
             </div>
@@ -246,7 +198,7 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
           </div>
 
 
-          <h2>2.kalavanti durg, Maharashtra</h2>
+          <h2 class="Fnames">2.kalavanti durg, Maharashtra</h2>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <a href="https://www.google.com/maps/place/Kalavantin+fort/@18.9829366,73.2179052,17z/data=!4m10!1m2!2m1!1skalavantin+durg+location!3m6!1s0x3be7efcc1448f3d9:0x28e1cd42a5b9d7d2!8m2!3d18.9833283!4d73.2200863!15sChhrYWxhdmFudGluIGR1cmcgbG9jYXRpb25aESIPa2FsYXZhbnRpbiBkdXJnkgEPbmF0dXJlX3ByZXNlcnZlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ0YXpsTWRVMTNFQUXgAQA!16s%2Fg%2F11j83yghxx?entry=ttu">
               <img src="imgs/kalavantin_1.jpg" height="320" width="720"
@@ -295,7 +247,7 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
               Durg</a>
           </p>
           <br><br>
-          <h2>3.Prabalgad, Maharashtra</h2>
+          <h2 class="Fnames">3.Prabalgad, Maharashtra</h2>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
            <a href="https://www.google.com/maps/place/Prabalgad+Fort/@18.9810473,73.21827,17z/data=!4m10!1m2!2m1!1sprabhalgad+fort!3m6!1s0x3be7e583e4dda9fb:0xd47661d92f86c5b8!8m2!3d18.9803573!4d73.2217144!15sCg9wcmFiaGFsZ2FkIGZvcnRaESIPcHJhYmhhbGdhZCBmb3J0kgELaGlraW5nX2FyZWGaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjRkMHBFZGtsbkVBReABAA!16s%2Fg%2F11c0q_4ltd?entry=ttu"> 
             <img src="imgs/prabalgadnew.webp" height="320" width="720"
@@ -352,7 +304,7 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
 
 
           <br><br>
-          <h2>4.Manikgad Fort, Maharashtra</h2>
+          <h2 class="Fnames">4.Manikgad Fort, Maharashtra</h2>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
            <a href="https://www.google.com/maps/place/Manikgad+Fort/@18.8260248,73.1910995,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e23ad1580bad:0xb2529cc02a329241!8m2!3d18.8260197!4d73.1936798!16s%2Fg%2F11cn5pn74f?entry=ttu">
              <img src="imgs/manikgad fort.jpg" height="320" width="720"
@@ -377,9 +329,9 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
             A small shiva linga and a few small rock-cut cisterns are present. The Ganesh gate is the only
             standing structure. A circular trench is cut in the rock for lime mixing. Other nearby forts include
             Karnala, Prabalgad, Chanderi, Malang gad, Irshalgad, Sondai, Lohagad, Visapur, and Sankshi.
-            <br><br>
+            <br>
           </p>
-          <h3>Maharashtra Getaways Monsoon:</h3>
+          <h3 class="que" >Maharashtra Getaways Monsoon:</h3>
           <p style="font-size: 20px; line-height: 28px; text-align: justify">Every Year during Monsoon Maharashtra
             transforms into one of the hottest destinations in India. Deep Plunge Waterfalls, Valley of Flowers, River
             Rafting, Rain Forest, Greenfields, Raging Rivers, Fog covered hills, Beautiful Historic Forts, Buddhist
@@ -388,7 +340,7 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
           </p>
 
           <br>
-          <h3>Why should you trek during monsoon?</h3>
+          <h3 class="que">Why should you trek during monsoon?</h3>
           <p style="font-size: 20px; line-height: 28px; text-align: justify">
             During monsoon weather is more relaxing, trekking will help you connect with nature you can connect with
             more friends
@@ -409,10 +361,10 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
 
     <div class="container">
       <div>
-        <div id="WeightLossSection2">
+        <div id="bestplaces">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h1 style="text-align: center">
+              <h1 id="liForts">
                 - List of Best Places For Treck In Maharashtra -
               </h1>
             </div>
@@ -421,7 +373,7 @@ YXRlZFoOIgxrYXJuYWxhIGZvcnSSAQhmb3J0cmVzc-ABAA!16s%2Fm%2F05h2bkt?entry=ttu"> Kar
 
           <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-              <div style="border: 3px solid #77b300; border-radius: 20px">
+              <div style="border: 3px solid #77b300; border-radius: 20px" >
                 <h3 style="
                       text-align: center;
                       border-bottom: 3px solid #77b300;
