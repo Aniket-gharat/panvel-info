@@ -184,10 +184,10 @@ body {
 .quote{
     text-align: justify; 
     margin-left: 0px;;
-    font-size: 20px;
+    font-size: 22px;
 }
 .darkmode{
-                margin-top: 20px;
+                margin-top: 16px;
                 text-align: center;
                 font-size: 8px;
                 font-family: 'Times New Roman', Times, serif;	
@@ -202,7 +202,7 @@ body {
     font-size: 18px;
 }
 .Fnames{
-    font-size: 26px;
+    font-size: 24px;
     font-weight:bold;
 font-family:'Times New Roman', Times, serif;
 }
