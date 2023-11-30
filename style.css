@@ -291,7 +291,8 @@ width: 125%;
     border:1px solid #77b300;
 }
 .shoppingPl{
-    font-size: 20px;
+    text-align: center;
+    font-size: 24px;
     font-weight: 600;
 }
 }
